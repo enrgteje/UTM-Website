@@ -27,15 +27,24 @@ body {
 }
 
 footer {
-    margin-top: 46.5em;
-    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
     background-color: orange;
+    padding: 3em;
 }
   
 /* Look at this later when we understand JS -Riki https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview*/
 
+
 .footerBox {
+    color: white;
+    font-size: 1.4em;
     float: left;
-    width: 50em;
-    height: 30em;
+    padding-right: 5em;
+    padding-left: 3em;
+    border-right: .08em solid whitesmoke;
+    line-height: 2.5em;
 }

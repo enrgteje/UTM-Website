@@ -6,6 +6,43 @@ body {
     background-color: rgb(202, 212, 212);
 }
 
+#headerContainer {
+    background-color: #FF8200;
+    color:white;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+}
+
+#headerContainer
+
+img{
+    padding: 0;
+    margin: 1.7rem 0 0 5rem;
+    display: inline-block;
+    width: 10rem;
+}
+
+#headerContainer h1{
+    display: inline;
+    margin: 0 0 0 16rem;
+    width: 50%;
+}
+
+#headerContainer h2{
+    display:inline;
+    margin: 0 0 0 15rem;
+    padding: 0;
+}
+
+a h1{
+    width: 50%;
+    display: block;
+    float: right;
+    top: 0;
+}
+
 .container {
     width: 85%;
     margin: auto;

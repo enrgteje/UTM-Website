@@ -6,39 +6,54 @@ body {
     background-color: rgb(202, 212, 212);
 }
 
+/* Top Banner */
 #headerContainer {
     background-color: #FF8200;
     color:white;
     top: 0;
     display: inline-block;
     width: 100%;
-    height: fit-content;
+    height: 8rem;
 }
 
-#headerContainer
-
-img{
+/* Banner Logo */
+#bannerIcon{
+    float:left;
     padding: 0;
-    margin: 1.7rem 0 0 5rem;
-    display: inline-block;
-    width: 10rem;
+    margin: .8rem 0 0 12rem;
+    width: 7rem;
 }
 
-#headerContainer h1{
+#departmentName h1{
+    position: relative;
     display: inline;
-    margin: 0 0 0 16rem;
-    width: 50%;
+    top: 2.5rem;
+    left: .5rem;
+    width: 30%;
 }
 
-#headerContainer h2{
+#utmLink a{
+    position: relative;
+    display: inline;
+    float: right;
+    font-size: 2rem;
+    right: 20rem;
+    top: -1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+#departmentSub{
+    position: relative;
     display:inline;
-    margin: 0 0 0 15rem;
+    top: 2.5rem;
+    left: .5rem;
     padding: 0;
 }
 
 a h1{
     width: 50%;
-    display: block;
+    display: inline;
     float: right;
     top: 0;
 }

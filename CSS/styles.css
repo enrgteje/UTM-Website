@@ -64,13 +64,12 @@ a h1{
 }
 
 footer {
-    position: absolute;
     bottom: 0;
-    left: 0;
     display: inline-block;
     width: 100%;
-    background-color: orange;
-    padding: 3em;
+    background-color: #FF8200;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
   
 /* Look at this later when we understand JS -Riki https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview*/
@@ -84,4 +83,18 @@ footer {
     padding-left: 3em;
     border-right: .08em solid whitesmoke;
     line-height: 2.5em;
+}
+
+#imgBanner {
+    position: relative;
+}
+
+.textBlock {
+    position: absolute;
+    bottom: 50%;
+    right: 3em;
+    background-color: grey;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
 }

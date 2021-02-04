@@ -12,7 +12,7 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: rgb(240, 238, 238);
+    background-color: rgba(240, 238, 238, 0.459);
 }
 
 /* Top Banner */
@@ -43,7 +43,6 @@ body {
 
 #utmLink a{
     position: relative;
-    display: inline;
     float: right;
     font-size: 2rem;
     right: 20rem;
@@ -62,7 +61,6 @@ body {
 
 a h1{
     width: 50%;
-    display: inline;
     float: right;
     top: 0;
 }

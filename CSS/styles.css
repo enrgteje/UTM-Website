@@ -132,3 +132,13 @@ footer {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+@media(max-width:600px) {
+    #bannerIcon{
+        margin: 1rem 0 0 1rem;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+}

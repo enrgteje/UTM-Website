@@ -107,8 +107,9 @@ footer {
 .textBlock {
     position: absolute;
     bottom: 50%;
-    right: 3em;
-    background-color: grey;
+    right: 0;
+    padding: 2em;
+    background-color: rgba(56, 56, 56, 0.75);
     color: white;
     padding-left: 2em;
     padding-right: 2em;

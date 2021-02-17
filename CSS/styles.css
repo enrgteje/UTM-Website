@@ -84,6 +84,34 @@ a h1{
     filter: drop-shadow(.2em .2em .1em grey);
 }
 
+.floaterText{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(56, 56, 56, 0.75);
+    color: white;
+    line-height: normal;
+    height:auto;
+}
+
+#abtClass{
+
+}
+
+#research{
+    background-image: url("/IMG/research_bright.jpg");
+    background-size:contain;
+}
+
+#people{
+
+}
+
+#events{
+    background-image: url("/IMG/conference_room.jpg");
+    background-size: contain;
+}
+
 #floaterContainer{
     width: 50%;
     margin-left:10em;

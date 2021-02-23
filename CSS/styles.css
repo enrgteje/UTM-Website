@@ -94,9 +94,6 @@ a h1{
     height:auto;
 }
 
-#abtClass{
-
-}
 
 #research{
     background-image: url("/IMG/research_bright.jpg");
@@ -149,9 +146,11 @@ footer {
     position: relative;
 }
 
+
+
 .textBlock {
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     right: 0;
     padding: 2em;
     background-color: rgba(56, 56, 56, 0.75);

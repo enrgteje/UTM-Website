@@ -96,7 +96,7 @@ a h1{
 
 
 #research{
-    background-image: url("/IMG/research_bright.jpg");
+    background-image: url("/UTM-Website/IMG/research_bright.jpg");
     background-size:contain;
 }
 
@@ -105,7 +105,7 @@ a h1{
 }
 
 #events{
-    background-image: url("/IMG/conference_room.jpg");
+    background-image: url("/UTM-Website/IMG/conference_room.jpg");
     background-size: contain;
 }
 

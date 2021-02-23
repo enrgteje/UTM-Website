@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: rgb(185, 185, 185);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(240, 238, 238, 0.459);
+}
+
+/* Top Banner */
+#headerContainer {
+    background-color: #FF8200;
+    color:white;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 8rem;
+}
+
+/* Banner Logo */
+#bannerIcon{
+    float:left;
+    padding: 0;
+    margin: .8rem 0 0 12rem;
+    width: 7rem;
+}
+
+#departmentName h1{
+    position: relative;
+    display: inline;
+    top: 2.5rem;
+    left: .5rem;
+    width: 30%;
+}
+
+#utmLink a{
+    position: relative;
+    float: right;
+    font-size: 2rem;
+    right: 20rem;
+    top: -1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+#departmentSub{
+    position: relative;
+    display:inline;
+    top: 2.5rem;
+    left: .5rem;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#footerContainer{
+    width: 100%;
+}
+
+.person{
+    position: relative;
+    left: 100px;
+    width: 90%;
+    height: fit-content;
+    border-bottom: 2px solid black;
+}
+
+.person img{
+    padding: 2rem 0 0 0;
+    width: 10rem;
+}
+
+h2{
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+}
+
+.left_section{
+    display: inline;
+    width: 10%;
+}
+
+p{
+    position: relative;
+    bottom: 0;
+    width: 50%;
+    left: 18rem;
+    bottom: 17rem;
+}
+
+footer {
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #FF8200;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin:auto;
+    text-align:center;
+}
+  
+/* Look at this later when we understand JS -Riki https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview*/
+
+
+.footerBox {
+    color: white;
+    font-size: 1.4em;
+    float: left;
+    padding-right: 5em;
+    padding-left: 3em;
+    border-right: .08em solid whitesmoke;
+    line-height: 2.5em;
+}
+
+@media(max-width:600px) {
+    #bannerIcon{
+        margin: 1rem 0 0 1rem;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+}

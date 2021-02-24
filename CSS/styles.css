@@ -159,6 +159,13 @@ footer {
     padding-right: 2em;
 }
 
+.imgBlock {
+    position: absolute;
+    top: 5%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 @media(max-width:600px) {
     #bannerIcon{
         margin: 1rem 0 0 1rem;
@@ -170,8 +177,9 @@ footer {
 }
 
 #UtmHeaderLogo {
-    position: relative;
-    top: -.7em;
-    width: 3em;
-    height: .2em;
+    width: 10em;
+}
+
+#funding {
+    font-size: .7em;
 }

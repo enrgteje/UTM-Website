@@ -168,3 +168,10 @@ footer {
         width: 100%;
     }
 }
+
+#UtmHeaderLogo {
+    position: relative;
+    top: -.7em;
+    width: 3em;
+    height: .2em;
+}

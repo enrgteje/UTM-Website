@@ -72,7 +72,6 @@ body {
     position: relative;
     left: 100px;
     width: 90%;
-    height: fit-content;
     border-bottom: 2px solid black;
 }
 
@@ -90,16 +89,21 @@ h4{
 }
 
 .left_section{
-    display: inline;
+    margin: 1rem 0 0 0;
+    padding: 0 0 0 5rem;
     width: 10%;
+    display:inline-block;
+    border-right: 2px solid black;
 }
 
-p{
+.about{
+    height:inherit;
+    border-right: 2px solid black;
     position: relative;
-    bottom: 0;
-    width: 50%;
-    left: 18rem;
-    bottom: 17rem;
+    display: inline-block;
+    left: 1rem;
+    bottom: 4.7rem;
+    width: 60%;
 }
 
 footer {

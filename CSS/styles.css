@@ -16,7 +16,7 @@ body {
 
 /* Top Banner */
 #headerContainer {
-    background-color: #FF8200;
+    background-color: #0f2e4e;
     color:white;
     top: 0;
     display: inline-block;
@@ -125,7 +125,7 @@ footer {
     bottom: 0;
     display: inline-block;
     width: 100%;
-    background-color: #FF8200;
+    background-color: #0f2e4e;
     padding-top: 3em;
     padding-bottom: 3em;
     margin:auto;
@@ -151,11 +151,18 @@ footer {
 
 .textBlock {
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     right: 0;
     padding: 2em;
     background-color: rgba(56, 56, 56, 0.75);
     color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.imgBlock {
+    position: absolute;
+    top: 5%;
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -168,4 +175,12 @@ footer {
     .wrapper{
         width: 100%;
     }
+}
+
+#UtmHeaderLogo {
+    width: 10em;
+}
+
+#funding {
+    font-size: .7em;
 }

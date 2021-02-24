@@ -16,7 +16,7 @@ body {
 
 /* Top Banner */
 #headerContainer {
-    background-color: #FF8200;
+    background-color: #0f2e4e;
     color:white;
     top: 0;
     display: inline-block;
@@ -126,7 +126,7 @@ footer {
     bottom: 0;
     display: inline-block;
     width: 100%;
-    background-color: #FF8200;
+    background-color: #0f2e4e;
     padding-top: 3em;
     padding-bottom: 3em;
     margin:auto;
@@ -144,6 +144,10 @@ footer {
     padding-left: 3em;
     border-right: .08em solid whitesmoke;
     line-height: 2.5em;
+}
+
+#funding {
+    font-size: .7em;
 }
 
 @media(max-width:600px) {

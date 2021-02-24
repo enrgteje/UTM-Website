@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: rgb(185, 185, 185);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* Top Banner */
+#headerContainer {
+    background-color: #0f2e4e;
+    color:white;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 8rem;
+}
+
+/* Banner Logo */
+#bannerIcon{
+    float:left;
+    padding: 0;
+    margin: .8rem 0 0 12rem;
+    width: 7rem;
+}
+
+footer {
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #0f2e4e;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin:auto;
+    text-align:center;
+}
+
+.footerBox {
+    color: white;
+    font-size: 1.4em;
+    float: left;
+    padding-right: 5em;
+    padding-left: 3em;
+    border-right: .08em solid whitesmoke;
+    line-height: 2.5em;
+}
+
+#funding {
+    font-size: .7em;
+}
+
+article {
+    margin:5em;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

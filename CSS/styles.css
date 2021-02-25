@@ -29,7 +29,7 @@ body {
     float:left;
     padding: 0;
     margin: .8rem 0 0 12rem;
-    width: 7rem;
+    width: 8rem;
 }
 
 #departmentName h1{
@@ -145,6 +145,8 @@ footer {
 #imgBanner {
     position: relative;
 }
+
+
 
 
 

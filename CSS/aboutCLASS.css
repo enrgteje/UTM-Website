@@ -26,6 +26,38 @@ body {
     width: 7rem;
 }
 
+#departmentName h1{
+    position: relative;
+    display: inline;
+    top: 2.5rem;
+    left: .5rem;
+    width: 30%;
+}
+
+#utmLink a{
+    position: relative;
+    float: right;
+    font-size: 2rem;
+    right: 20rem;
+    top: -1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+#departmentSub{
+    position: relative;
+    display:inline;
+    top: 2.5rem;
+    left: .5rem;
+    padding: 0;
+}
+
+a h1{
+    width: 50%;
+    float: right;
+    top: 0;
+}
+
 footer {
     bottom: 0;
     display: inline-block;

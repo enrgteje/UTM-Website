@@ -70,6 +70,11 @@ a h1{
     overflow: hidden;
 }
 
+#bannerPic{
+    width: 100%;
+    height: auto;
+}
+
 .floater {
     width: 8em;
     height: 6.5em;
@@ -79,18 +84,20 @@ a h1{
     float: left;
     text-align: center;
     line-height: 7em;
-    margin: 2em 2em 2em 0;
+    margin: 2em 2em 0 0;
     border: .2em solid white;
     filter: drop-shadow(.2em .2em .1em grey);
 }
 
 .floaterText{
     position: absolute;
-    bottom: 0;
+    bottom: 1rem;
     right: 0;
     background-color: rgba(56, 56, 56, 0.75);
     color: white;
-    line-height: normal;
+    padding: 0 1rem 0 1rem;
+    font-size: 28px;
+    line-height: .2rem;
     height:auto;
 }
 
@@ -113,8 +120,9 @@ a h1{
 }
 
 #floaterContainer{
-    width: 50%;
-    margin-left:10em;
+    display: inline-block;
+    width: 50rem;
+    margin: 0 0 4em 16em;
 }
 
 #footerContainer{

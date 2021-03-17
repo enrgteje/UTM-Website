@@ -1,5 +1,14 @@
-#main-header{
-    background-color: #0f2e4e;
+#navigation{
+    background-color: #0a223e;
+}
+
+.nav-link{
+    font-size: 1.4em;
+    text-decoration: none;
     color: white;
-    height: 5em;
+}
+
+.nopadding{
+    padding:0 !important;
+    margin:0 !important;
 }

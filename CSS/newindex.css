@@ -1,0 +1,57 @@
+#navigation{
+    background-color: #0a223e;
+    color: white;
+}
+
+.nav-link{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+.nopadding{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    line-height: 1.3rem !important;
+}
+
+#subheading{
+    font-size: .8rem;
+}
+
+.carousel-inner img{
+    width: 100vw !important;
+}
+
+#footer{
+    line-height: 1em;
+}
+
+.utm-color{
+    background-color: #0a223e;
+    color: white;
+}
+
+hr{
+    background-color: white;
+}
+
+.margin-auto{
+    margin: auto !important;
+}
+
+.indent{
+    margin-left: 40px;
+}
+
+.top-padding{
+    padding-top: 40px;
+}
+
+.bottom-padding{
+    padding-bottom: 40px;
+}

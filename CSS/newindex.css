@@ -1,7 +1,12 @@
 .nav-link{
-    font-size: 1.4em;
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
+}
+
+.nav-link:hover {
+    background-color: transparent !important;
+    color: lightgray;
 }
 
 .nopadding{
@@ -14,8 +19,12 @@
     line-height: 1.3rem !important;
 }
 
+#header{
+    font-size: 45px !important;
+}
+
 #subheading{
-    font-size: .8rem;
+    font-size: .3em;
 }
 
 .carousel-inner img{

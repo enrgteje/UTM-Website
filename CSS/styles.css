@@ -1,194 +1,92 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    background-color: rgb(185, 185, 185);
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-.wrapper{
-    width: 100%;
-    overflow: hidden;
-    background-color: rgba(240, 238, 238, 0.459);
-}
-
-/* Top Banner */
-#headerContainer {
-    background-color: #0f2e4e;
-    color:white;
-    top: 0;
-    display: inline-block;
-    width: 100%;
-    height: 8rem;
-}
-
-/* Banner Logo */
-#bannerIcon{
-    float:left;
-    padding: 0;
-    margin: .8rem 0 0 12rem;
-    width: 8rem;
-}
-
-#departmentName h1{
-    position: relative;
-    display: inline;
-    top: 2.5rem;
-    left: .5rem;
-    width: 30%;
-}
-
-#utmLink a{
-    position: relative;
-    float: right;
-    font-size: 2rem;
-    right: 20rem;
-    top: -1.3rem;
+.nav-link{
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
 }
 
-#departmentSub{
-    position: relative;
-    display:inline;
-    top: 2.5rem;
-    left: .5rem;
-    padding: 0;
+.nav-link:hover {
+    background-color: transparent !important;
+    color: lightgray;
 }
 
-a h1{
-    width: 50%;
-    float: right;
-    top: 0;
+.nopadding{
+    padding:0 !important;
+    margin:0 !important;
 }
 
-.container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
+.navbar-brand{
+    font-size: 2rem !important;
+    line-height: 1.3rem !important;
 }
 
-#bannerPic{
-    width: 100%;
-    height: auto;
+#header{
+    font-size: 45px !important;
 }
 
-.floater {
-    width: 8em;
-    height: 6.5em;
-    background-color: #0c2340;
-    font-size: 2em;
-    color: #FF8200;
-    float: left;
-    text-align: center;
-    line-height: 7em;
-    margin: 2em 2em 0 0;
-    border: .2em solid white;
-    filter: drop-shadow(.2em .2em .1em grey);
+#subheading{
+    font-size: .3em;
 }
 
-.floaterText{
-    position: absolute;
-    bottom: 1rem;
-    right: 0;
-    background-color: rgba(56, 56, 56, 0.75);
+.carousel-inner img{
+    width: 100vw !important;
+}
+
+#footer{
+    line-height: 1em;
+}
+
+#socials{
+    font-size: 3em;
+    padding-bottom: 1rem;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-instagram{
     color: white;
-    padding: 0 1rem 0 1rem;
-    font-size: 28px;
-    line-height: .2rem;
-    height:auto;
 }
 
-#abtClass{
-    
+.fa-youtube{
+    color: #bb0000;
 }
 
-#research{
-    background-image: url("/UTM-Website/IMG/research_bright.jpg");
-    background-size:contain;
-}
-
-#people{
-
-}
-
-#events{
-    background-image: url("/UTM-Website/IMG/conference_room.jpg");
-    background-size: contain;
-}
-
-#floaterContainer{
-    display: inline-block;
-    width: 50rem;
-    margin: 0 0 4em 16em;
-}
-
-#footerContainer{
-    width: 100%;
-}
-
-footer {
-    bottom: 0;
-    display: inline-block;
-    width: 100%;
-    background-color: #0f2e4e;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    margin:auto;
-    text-align:center;
-}
-  
-/* Look at this later when we understand JS -Riki https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview*/
-
-
-.footerBox {
+.utm-color{
+    background-color: #0a223e;
     color: white;
-    font-size: 1.4em;
-    float: left;
-    padding-right: 5em;
-    padding-left: 3em;
-    border-right: .08em solid whitesmoke;
-    line-height: 2.5em;
 }
 
-#imgBanner {
-    position: relative;
+hr{
+    background-color: white;
 }
 
-.textBlock {
-    position: absolute;
-    bottom: 15%;
-    right: 0;
-    padding: 2em;
-    background-color: rgba(56, 56, 56, 0.75);
-    color: white;
-    padding-left: 2em;
-    padding-right: 2em;
+.margin-auto{
+    margin: auto !important;
 }
 
-.imgBlock {
-    position: absolute;
-    top: 5%;
-    padding-left: 2em;
-    padding-right: 2em;
+.indent{
+    margin-left: 40px;
 }
 
-@media(max-width:600px) {
-    #bannerIcon{
-        margin: 1rem 0 0 1rem;
+.top-padding{
+    padding-top: 40px;
+}
+
+.bottom-padding{
+    padding-bottom: 40px;
+}
+
+@media (max-width: 767px){
+    .hidden-xs {
+        display: none !important;
     }
 
-    .wrapper{
-        width: 100%;
+    .navbar {
+        padding-top: 20px !important;
     }
-}
-
-#UtmHeaderLogo {
-    width: 10em;
-}
-
-#funding {
-    font-size: .7em;
 }

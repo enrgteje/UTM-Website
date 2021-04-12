@@ -32,8 +32,17 @@
     height: 100px;
 }
 
-.extra_info {
+.staff_info {
     line-height: 1em;
+}
+
+.student_info {
+    line-height: .5em;
+}
+
+.last_info {
+    line-height: .5em;
+    padding-bottom: 1em;
 }
 
 #footer{

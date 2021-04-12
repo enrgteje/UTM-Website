@@ -1,161 +1,93 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    background-color: rgb(185, 185, 185);
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-.wrapper{
-    width: 100%;
-    overflow: hidden;
-    background-color: rgba(240, 238, 238, 0.459);
-}
-
-/* Top Banner */
-#headerContainer {
-    background-color: #0f2e4e;
-    color:white;
-    top: 0;
-    display: inline-block;
-    width: 100%;
-    height: 8rem;
-}
-
-/* Banner Logo */
-#bannerIcon{
-    float:left;
-    padding: 0;
-    margin: .8rem 0 0 12rem;
-    width: 7rem;
-}
-
-#departmentName h1{
-    position: relative;
-    display: inline;
-    top: 2.5rem;
-    left: .5rem;
-    width: 30%;
-}
-
-#utmLink a{
-    position: relative;
-    float: right;
-    font-size: 2rem;
-    right: 20rem;
-    top: -1.3rem;
+.nav-link{
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
 }
 
-#departmentSub{
-    position: relative;
-    display:inline;
-    top: 2.5rem;
-    left: .5rem;
-    padding: 0;
+.nav-link:hover {
+    background-color: transparent !important;
+    color: lightgray;
 }
 
-.container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
+.nopadding{
+    padding:0 !important;
+    margin:0 !important;
 }
 
-#footerContainer{
-    width: 100%;
+.navbar-brand{
+    font-size: 2rem !important;
+    line-height: 1.3rem !important;
 }
 
-.person{
-    display: flex;
-    position: relative;
-    left: 100px;
-    width: 90%;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.363);
+#header{
+    font-size: 45px !important;
 }
 
-.person img{
-    padding: 2rem 0 0 0;
-    width: 10rem;
+#subheading{
+    font-size: .3em;
 }
 
-h2{
-    margin: 0 0 .1rem 0;
+.img-fluid {
+    width: 100px;
+    height: 100px;
 }
 
-h3{
-    text-align: center;
+.extra_info {
+    line-height: 1em;
 }
 
-h4{
-    margin: 0 0 .2rem 0;
+#footer{
+    line-height: 1em;
 }
 
-.left_section{
-    margin: 1rem 0 1rem 0;
-    padding: 0 0 0 5rem;
-    width: 10%;
-    display:inline-block;
-    line-height: 1.2rem;
+hr{
+    background-color: white;
 }
 
-a{
-    text-decoration: none;
-    color:rgba(0, 0, 0, 0.651);
+#socials{
+    font-size: 3em;
+    padding-bottom: 1rem;
 }
 
-.right_section{
-    top: .8rem;
-    font-size: 18px;
-    margin: 1rem 0 0 0;
-    padding: 0 1rem 0 0;
-    position: relative;
-    display: inline-block;
-    left: 1rem;
-    width: 70%;
+.fa-facebook{
+    color: #3b5998;
 }
 
-.extra_info{
-    margin:0;
-    color:rgba(0, 0, 0, 0.651);
+.fa-twitter{
+    color: #00aced;
 }
 
-footer {
-    bottom: 0;
-    display: inline-block;
-    width: 100%;
-    background-color: #0f2e4e;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    margin:auto;
-    text-align:center;
-}
-  
-/* Look at this later when we understand JS -Riki https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview*/
-
-
-.footerBox {
+.fa-instagram{
     color: white;
-    font-size: 1.4em;
-    float: left;
-    padding-right: 5em;
-    padding-left: 3em;
-    border-right: .08em solid whitesmoke;
-    line-height: 2.5em;
 }
 
-#funding {
-    font-size: .7em;
+.fa-youtube{
+    color: #bb0000;
 }
 
-@media(max-width:600px) {
-    #bannerIcon{
-        margin: 1rem 0 0 1rem;
+.top-padding{
+    padding-top: 40px;
+}
+
+.margin-auto{
+    margin: auto !important;
+}
+
+.bottom-padding{
+    padding-bottom: 40px;
+}
+
+.utm-color{
+    background-color: #0a223e;
+    color: white;
+}
+
+@media (max-width: 767px){
+    .hidden-xs {
+        display: none !important;
     }
 
-    .wrapper{
-        width: 100%;
+    .navbar {
+        padding-top: 20px !important;
     }
 }

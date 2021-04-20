@@ -27,8 +27,18 @@
     font-size: .3em;
 }
 
+/* Makes carousel move but images fit the screen width */
 .carousel-inner img{
     width: 100vw !important;
+}
+
+/* Makes carousel not move but images look strange */
+.carousel-item img{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 700px;
+    max-height: 700px;
 }
 
 #footer{

@@ -1,0 +1,15 @@
+#image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50vw;
+}
+
+@media (max-width: 767px) {
+    #image {
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+}

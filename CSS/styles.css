@@ -37,8 +37,8 @@
     display: block;
     margin: auto;
     width: auto;
-    height: 700px;
-    max-height: 700px;
+    height: 34vw;
+    max-height: 34vw;
 }
 
 #footer{
@@ -71,6 +71,10 @@
     color: white;
 }
 
+.white{
+    color: white;
+}
+
 hr{
     background-color: white;
 }
@@ -99,4 +103,9 @@ hr{
     .navbar {
         padding-top: 20px !important;
     }
+
+    /* .carousel-item img{
+        height: 1vh;
+        max-height: 1vh;
+    } */
 }

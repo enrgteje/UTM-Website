@@ -41,6 +41,16 @@
     max-height: 34vw;
 }
 
+
+/* Displays the video in the carousel */
+.carousel-item iframe{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 34vw;
+    max-height: 34vw;
+}
+
 #footer{
     line-height: 1em;
 }

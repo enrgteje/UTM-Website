@@ -1,3 +1,11 @@
 span {
     font-size: 5em;
 }
+
+#horizontal-line {
+    width: 80%;
+}
+
+#box {
+    background-color: rgba(245, 245, 245, 0.699);
+}

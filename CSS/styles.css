@@ -15,6 +15,10 @@
 }
 
 .navbar-brand{
+    height: auto;
+    width: auto;
+    max-width: 95px;
+    max-height: 150px;
     font-size: 2rem !important;
     line-height: 1.3rem !important;
 }
@@ -105,9 +109,26 @@ hr{
     padding-bottom: 40px;
 }
 
+.hidden-lg{
+    display: none !important;
+}
+
+.br {
+    display: none;
+    margin: 0em !important;
+}
+
 @media (max-width: 767px){
     .hidden-xs {
         display: none !important;
+    }
+
+    .hidden-lg {
+        display: inline !important;
+    }
+
+    .br {
+        display: block !important;
     }
 
     .navbar {

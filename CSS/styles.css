@@ -129,6 +129,7 @@ hr{
 
     .br {
         display: block !important;
+        width: 0px;
     }
 
     .navbar {

@@ -118,6 +118,12 @@ hr{
     margin: 0em !important;
 }
 
+@media (max-width: 875px){
+    .br {
+        display: block !important;
+    }
+}
+
 @media (max-width: 767px){
     .hidden-xs {
         display: none !important;
@@ -128,8 +134,7 @@ hr{
     }
 
     .br {
-        display: block !important;
-        width: 0px;
+        display: none !important;
     }
 
     .navbar {
@@ -145,5 +150,11 @@ hr{
         height: 20rem;
         max-height: 15rem;
         width:100%
+    }
+}
+
+@media (max-width: 450px){
+    .br {
+        display: block !important;
     }
 }

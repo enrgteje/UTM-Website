@@ -55,6 +55,16 @@
     max-height: 34vw;
 }
 
+.p-header{
+    font-size: 50px;
+    color: #0a223e;
+}
+
+.about-info{
+    font-family: "Tahoma";
+    font-size: 20px;
+}
+
 #footer{
     line-height: 1em;
 }
@@ -116,6 +126,15 @@ hr{
 .br {
     display: none;
     margin: 0em !important;
+}
+
+.timer{
+    padding: 50px 0 10px;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
 }
 
 @media (max-width: 875px){

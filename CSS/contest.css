@@ -6,6 +6,20 @@ span {
     width: 80%;
 }
 
+
 #box {
     background-color: rgba(245, 245, 245, 0.699);
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
+.parent {
+    text-align: center;
+}
+
+.parent > ul {
+    display:inline-block
 }

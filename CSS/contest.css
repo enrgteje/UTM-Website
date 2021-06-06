@@ -11,15 +11,11 @@ span {
     background-color: rgba(245, 245, 245, 0.699);
 }
 
-ul {
-    text-align: center;
-    list-style: inside;
+.centerElement {
+    margin: auto;
+    width: 60%;
 }
 
-.parent {
-    text-align: center;
-}
-
-.parent > ul {
-    display:inline-block
+.firstList {
+    margin: 0 31vh 0;
 }

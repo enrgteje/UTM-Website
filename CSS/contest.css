@@ -17,5 +17,14 @@ span {
 }
 
 .firstList {
-    margin: 0 31vh 0;
+    margin: 0 32vh 0;
+}
+
+#topText {
+    width: 90%;
+    margin: auto;
+}
+
+#largeTableItem {
+    width: 50%;
 }

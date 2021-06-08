@@ -28,3 +28,27 @@ span {
 #largeTableItem {
     width: 50%;
 }
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-container > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.grid-container > div:nth-child(odd) {
+    background: #ddd;
+}
+
+@media (max-width: 767px) {
+    table {
+        display:none;
+    }
+
+    .firstList {
+        margin:0 1vh 0;
+    }
+}

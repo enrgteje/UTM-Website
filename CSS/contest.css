@@ -13,11 +13,17 @@ span {
 
 .centerElement {
     margin: auto;
-    width: 60%;
+    width: 70%;
+    text-align: center;
 }
 
 .firstList {
-    margin: 0 32vh 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75vh;
+    border: 5px grey;
+    border-style: double double solid solid;
+    display: inline-block;
 }
 
 #topText {
@@ -43,9 +49,24 @@ span {
     background: #ddd;
 }
 
-@media (max-width: 767px) {
+.visible-sm {
+    display: none;
+}
+
+
+
+@media (max-width: 1100px) {
+
     table {
+        margin-bottom: 50px !important;
+    }
+
+    .hidden-sm {
         display:none;
+    }
+
+    .visible-sm {
+        display: block;
     }
 
     .firstList {

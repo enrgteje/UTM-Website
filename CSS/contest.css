@@ -13,14 +13,15 @@ span {
 
 .centerElement {
     margin: auto;
-    width: 70%;
+    width: 100%;
     text-align: center;
 }
 
 .firstList {
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 75vh;
+    padding-right: 2px;
+    width: 60vw;
     border: 5px grey;
     border-style: double double solid solid;
     display: inline-block;
@@ -53,6 +54,12 @@ span {
     display: none;
 }
 
+b {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 
 
 @media (max-width: 1100px) {
@@ -69,7 +76,13 @@ span {
         display: block;
     }
 
+    .centerElement {
+        width:min-content;
+        margin:auto;
+    }
+
     .firstList {
         margin:0 1vh 0;
+        width: 75vw;
     }
 }

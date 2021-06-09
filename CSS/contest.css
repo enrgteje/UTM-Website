@@ -36,20 +36,6 @@ span {
     width: 50%;
 }
 
-.grid-container {
-    display:grid;
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.grid-container > div {
-    background: #eee;
-    padding: 1em;
-}
-
-.grid-container > div:nth-child(odd) {
-    background: #ddd;
-}
-
 .visible-sm {
     display: none;
 }

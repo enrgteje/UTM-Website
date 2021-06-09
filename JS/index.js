@@ -1,5 +1,5 @@
 window.onload = function countDown() {
-    var target = new Date("Jun 25, 2021 23:59:59").getTime();
+    var target = new Date("Jun 15, 2021 16:00:00").getTime();
 
     var x = setInterval(function() {
         var current = new Date().getTime();

@@ -10,7 +10,12 @@ window.onload = function countDown() {
         var days = Math.floor(timeLeft % (1000 * 60 * 60 * 24 * 7) / (1000 * 60 * 60 * 24));
         var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60  * 60));
 
-        document.getElementById("Timer").innerHTML = weeks + " Weeks " + days + " Days " + hours + " Hours";
+
+        if(weeks == 0){
+            document.getElementById("Timer").innerHTML = days + " Days " + hours + " Hours";
+        }
+        else
+            document.getElementById("Timer").innerHTML = weeks + " Weeks " + days + " Days " + hours + " Hours";
 
         if(timeLeft < 0) {
             clearInterval(x);

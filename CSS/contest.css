@@ -1,5 +1,8 @@
-span {
-    font-size: 5em;
+#banner {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium';
+    line-height: 1em;
+    color: #0a223e;
 }
 
 #horizontal-line {
@@ -66,6 +69,31 @@ table {
     padding-right: 20px;
 }
 
+#TimerContainer {
+    border-style: solid;
+    width: fit-content;
+    max-width: 70vw;
+    padding-top: 1vw;
+    margin-bottom: 20px;
+}
+
+#banner2021 {
+    font-family: cursive;
+    font-size: 1.3em;
+    color: orange;
+}
+
+.pTitle {
+    font-size: 3em;
+}
+
+.listTitle {
+
+}
+
+.tableTitle {
+
+}
 
 @media (max-width: 1100px) {
 
@@ -83,10 +111,6 @@ table {
 
     #CLASSlogo {
         width: 16vh;
-    }
-
-    span {
-        font-size: 2em;
     }
 
 }

@@ -27,9 +27,9 @@
     padding-right: 2px;
     margin-top: 0;
     width: 45vw;
-    border: 5px grey;
+    /*border: 5px grey;
     border-style: double double solid solid;
-    display: inline-block;
+    display: inline-block;*/
 }
 
 #topText {
@@ -111,10 +111,19 @@ p , li {
     width: 90vw;
 }
 
+
+
 .side-by-side {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 0 3em;
+    
+}
+
+.side-by-side #format {
+    grid-column: 1 / 3;
+    margin: auto;
+    margin-top: 1em;
 }
 
 #registerButton {

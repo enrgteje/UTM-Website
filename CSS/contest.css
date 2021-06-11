@@ -108,7 +108,7 @@ p , li {
 }
 
 #classTable {
-    width: 150vh;
+    width: 90vw;
 }
 
 .side-by-side {
@@ -143,9 +143,6 @@ button {
         width: 16vh;
     }
 
-    #classTable {
-        width: 140vh;
-    }
 }
 
 @media (max-width: 767px) {
@@ -156,10 +153,6 @@ button {
     #banner2021 {
         font-size: 80px;
     }
-
-    #classTable {
-        width: 100vh;
-    }
 }
 
 @media (max-width: 550px) {
@@ -169,16 +162,6 @@ button {
 
     #banner {
         font-size: 40px;
-    }
-
-    #classTable {
-        width: 70vh;
-    }
-}
-
-@media (max-width: 375px) {
-    #classTable {
-        width: 50vh;
     }
 }
 

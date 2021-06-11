@@ -108,7 +108,21 @@ p , li {
 }
 
 #classTable {
-    width: 180vh;
+    width: 150vh;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0 3em;
+}
+
+#registerButton {
+    margin-bottom: 1vh;
+}
+
+button {
+    width: 15%;
 }
 
 @media (max-width: 1100px) {

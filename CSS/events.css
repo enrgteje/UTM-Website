@@ -8,6 +8,13 @@
     display: none;
 }
 
+.centerElement {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    top: 0;
+}
+
 @media (max-width: 767px) {
     #image {
         width: 90%;

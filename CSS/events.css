@@ -4,6 +4,10 @@
     width: 50vw;
 }
 
+.hidden{
+    display: none;
+}
+
 @media (max-width: 767px) {
     #image {
         width: 90%;

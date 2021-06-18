@@ -19,7 +19,8 @@ window.onload = function countDown() {
 
         if(timeLeft < 0) {
             clearInterval(x);
-            document.getElementById("TimerContainer").innerHTML = "";
+            document.getElementById("TimerContainer").innerHTML = `<h1>CLASS is in session!</h1>
+            <a href="https://www.utm.edu/class">Register Now</a>`;
         }
     });
 }
